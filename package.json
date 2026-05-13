@@ -1,0 +1,23 @@
+{
+  "name": "nistula-guest-message-handler",
+  "version": "1.0.0",
+  "description": "Guest message handler for Nistula unified messaging platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node tests/webhook.test.js"
+  },
+  "keywords": ["nistula", "guest-messaging", "webhook", "claude-ai"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
