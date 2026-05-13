@@ -2,6 +2,10 @@
 
 A backend webhook service that ingests guest messages from multiple hospitality channels, normalises them into a unified schema, classifies intent, drafts AI-generated responses using Claude, and returns confidence-scored actions for automated or human-assisted handling.
 
+**Live Backend API**: [https://nistula-technical-assessment-pa0c.onrender.com/](https://nistula-technical-assessment-pa0c.onrender.com/)
+
+> **Note**: The deployed API depends on the temporary assessment Claude API key provided in the brief and may become inactive after the key expires.
+
 ## Key Features
 - Multi-channel guest message ingestion
 - Unified schema normalisation
@@ -19,7 +23,7 @@ Webhook Request → Validation & Normalisation → Query Classification → Clau
 
 ## Setup
 ### Prerequisites
-- Node.js v18+
+- Node.js
 - Anthropic API key
 
 ### Installation
