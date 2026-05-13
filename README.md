@@ -81,6 +81,17 @@ npm test
 }
 ```
 
+## Postman Testing Screenshots
+
+### 1. Availability Request
+![Availability Request](src/screenshots/AvailabilityRequest.png)
+
+### 2. Check-in and WiFi Query
+![Check-in and WiFi Query](src/screenshots/Check-in%20and%20WiFi%20Query.png)
+
+### 3. Complaint Escalation
+![Complaint Escalation](src/screenshots/ComplaintEscalation.png)
+
 ## Confidence Scoring
 **Why rule-based?** A deterministic scoring system was chosen instead of AI self-evaluation because it is:
 - **Transparent**: Clear breakdown of scores.
